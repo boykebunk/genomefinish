@@ -21,7 +21,9 @@ Genome Finishing Programs
 - Rewritten version of the genomecirculator.jar with additional features. Run: genomecirculator.py chromosome_start chromosome_cut chromosome.fasta
 
 NEW: Add "r" or "rev" to your call if your alignment orientation of your replication gene is reverse complement to your genome, e. g. use "12345r" as chromosome_start.
+
 NEW: Want to include plasmids as well? Use on the multifasta: genomecirculator.py chromosome_start chromosome_cut plasmid1_start plasmid1_cut chromosome.fasta
+
 NEW: Circularity has been already detected, e.g. in SMRTlink? Give 0 as cut-position fur the respective replicon.
 
 - Program returns automatically the first 12 bp after the replication gene. Check that they are the same as the begin of dnaA.fasta
